@@ -7,7 +7,7 @@ RUN apt-get update
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
     && apt-get install -qqy -f nodejs \
     git-core \
-    build-essential \
+    build-essential
     
 # Install Meteor
 RUN curl https://install.meteor.com/ | sh
